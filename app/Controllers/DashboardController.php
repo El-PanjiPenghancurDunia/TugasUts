@@ -16,7 +16,7 @@ class DashboardController extends BaseController
             'username' => session()->get('username'),
             'role' => 'admin',
         ];
-        return view('/v_home1', $data); 
+        return view('/dashboard-admin', $data); 
     }
 
     public function user()

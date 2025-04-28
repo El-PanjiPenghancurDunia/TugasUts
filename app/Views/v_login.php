@@ -1,4 +1,4 @@
-<?= $this->extend('layout_clear2') ?>
+<?= $this->extend('layout_clear') ?>
 <?= $this->section('content') ?>
 <?php
 $username = [

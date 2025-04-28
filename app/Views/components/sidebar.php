@@ -6,7 +6,7 @@
         if (session()->get('role') == 'admin') {
         ?>
         <li class="nav-item">
-            <a class="nav-link <?php echo (uri_string() == '') ? "" : "collapsed" ?>" href="dashboard-admin">
+            <a class="nav-link <?php echo (uri_string() == '') ? "" : "collapsed" ?>" href="admin">
                 <i class="bi bi-grid"></i>
                 <span>Dashboard</span>
             </a>

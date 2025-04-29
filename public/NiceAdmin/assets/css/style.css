@@ -20,12 +20,12 @@ body {
 }
 
 a {
-  color: #4154f1;
+  color: #4CAF50;
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+  color: #4CAF50;
   text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ h6 {
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 600;
-  color: #012970;
+  color: #4CAF50;
 }
 
 /*--------------------------------------------------------------
@@ -91,7 +91,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: #4CAF50;
   color: #fff;
 }
 
@@ -236,7 +236,7 @@ h6 {
   padding: 20px 0 15px 0;
   font-size: 18px;
   font-weight: 500;
-  color: #012970;
+  color: #4CAF50;
   font-family: "Poppins", sans-serif;
 }
 
@@ -342,13 +342,13 @@ h6 {
 
 .nav-tabs-bordered .nav-link:hover,
 .nav-tabs-bordered .nav-link:focus {
-  color: #4154f1;
+  color: #4CAF50;
 }
 
 .nav-tabs-bordered .nav-link.active {
   background-color: #fff;
-  color: #4154f1;
-  border-bottom: 2px solid #4154f1;
+  color: #4CAF50;
+  border-bottom: 2px solid #4CAF50;
 }
 
 /*--------------------------------------------------------------
@@ -372,7 +372,7 @@ h6 {
 .logo span {
   font-size: 26px;
   font-weight: 700;
-  color: #012970;
+  color: #4CAF50;
   font-family: "Nunito", sans-serif;
 }
 
@@ -391,7 +391,7 @@ h6 {
   font-size: 32px;
   padding-left: 10px;
   cursor: pointer;
-  color: #012970;
+  color: #4CAF50;
 }
 
 .header .search-bar {
@@ -684,7 +684,7 @@ h6 {
   align-items: center;
   font-size: 15px;
   font-weight: 600;
-  color: #4154f1;
+  color: #4CAF50;
   transition: 0.3;
   background: #f6f9ff;
   padding: 10px 15px;
@@ -694,11 +694,11 @@ h6 {
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #4154f1;
+  color: #4CAF50;
 }
 
 .sidebar-nav .nav-link.collapsed {
-  color: #012970;
+  color: #4CAF50;
   background: #fff;
 }
 
@@ -707,12 +707,12 @@ h6 {
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #4154f1;
+  color: #4CAF50;
   background: #f6f9ff;
 }
 
 .sidebar-nav .nav-link:hover i {
-  color: #4154f1;
+  color: #4CAF50;
 }
 
 .sidebar-nav .nav-link .bi-chevron-down {
@@ -1071,7 +1071,7 @@ h6 {
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #4154f1;
+  color: #4CAF50;
 }
 
 .contact .info-box h3 {
@@ -1138,7 +1138,7 @@ h6 {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #4154f1;
+  border-color: #4CAF50;
 }
 
 .contact .php-email-form input {
@@ -1150,7 +1150,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
+  background: #4CAF50;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1159,7 +1159,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #5969f3;
+  background: #4CAF50;
 }
 
 @keyframes animate-loading {
@@ -1222,12 +1222,12 @@ h6 {
 
 .footer .copyright {
   text-align: center;
-  color: #012970;
+  color: #4CAF50;
 }
 
 .footer .credits {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #012970;
+  color: #4CAF50;
 }

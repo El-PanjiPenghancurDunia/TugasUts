@@ -20,19 +20,19 @@
         <li class="nav-item">
             <a class="nav-link <?php echo (uri_string() == 'user') ? "" : "collapsed" ?>" href="user">
                 <i class="bi bi-cart-check"></i>
-                <span>User</span>
+                <span>Dashboard_User</span>
             </a>
         </li><!-- End Keranjang Nav --> 
-        <?php
-        }
-        ?>
+
         <li class="nav-item">
             <a class="nav-link <?php echo (uri_string() == 'produk') ? "" : "collapsed" ?>" href="produk">
                 <i class="bi bi-receipt"></i>
                 <span>Produk</span>
             </a>
         </li><!-- End Produk Nav --> 
-
+        <?php
+        }
+        ?>
     </ul>
 
 </aside><!-- End Sidebar-->

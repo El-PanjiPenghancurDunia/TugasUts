@@ -14,9 +14,10 @@ class DashboardController extends BaseController
 
         $data = [
             'username' => session()->get('username'),
-            'role' => 'admin',
+            'role' => session()->get('role')
         ];
-        return view('/dashboard-admin', $data); 
+
+        return view('dashboard-admin', $data); // Pastikan file v_home1.php ADA di Views
     }
 
     public function user()
@@ -27,8 +28,9 @@ class DashboardController extends BaseController
 
         $data = [
             'username' => session()->get('username'),
-            'role' => 'user',
+            'role' => session()->get('role')
         ];
-        return view('/v_user', $data); 
+
+        return view('v_user', $data); // Pastikan file user.php ADA di Views
     }
 }

@@ -32,9 +32,9 @@ class AuthController extends BaseController
                     ]);
 
                     if ($user['role'] == 'admin') {
-                        return redirect()->to('/admin');
+                        return redirect()->to('admin');
                     } else {
-                        return redirect()->to('/user');
+                        return redirect()->to('user');
                     }
                 } else {
                     session()->setFlashdata('failed', 'Password salah.');
